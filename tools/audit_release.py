@@ -14,6 +14,7 @@ FIXED = {
     PREFIX + "references/catalog.json", PREFIX + "references/index.md",
     PREFIX + "references/choosing.md", PREFIX + "references/generation.md",
     PREFIX + "scripts/stylebook.py",
+    PREFIX + "assets/logo.png",
     *(PREFIX + f"assets/{name}-48.jpg" for name in ("people", "landscape", "objects")),
 }
 CATALOG_KEYS = {"id", "name", "name_en", "slug", "category", "aliases", "tags", "file"}
@@ -54,12 +55,18 @@ def audit():
             if not data.startswith(b"\xff\xd8\xff") or len(data) < 100_000:
                 errors.append(f"Invalid preview image: {name}")
             continue
+        if path.suffix == ".png":
+            if not path.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"):
+                errors.append(f"Invalid PNG logo: {name}")
+            continue
         text = path.read_text(encoding="utf-8")
         for label, pattern in SENSITIVE.items():
             if re.search(pattern, text):
                 errors.append(f"Potential {label} in {name}")
         if path.suffix == ".md":
-            for target in re.findall(r"\]\(([^)]+)\)", text):
+            targets = re.findall(r"\]\(([^)]+)\)", text)
+            targets += re.findall(r'(?:src|href)="([^"]+)"', text)
+            for target in targets:
                 if re.match(r"https?://", target) or target.startswith("#"):
                     continue
                 destination = (path.parent / target.split("#", 1)[0]).resolve()

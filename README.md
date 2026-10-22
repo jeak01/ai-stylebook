@@ -1,4 +1,4 @@
-# AI Stylebook · 48 Image Styles Skill
+# <a href="https://aistylebook.com/"><img src="skills/aistylebook-48/assets/logo.png" alt="AI Stylebook logo" width="44" height="44" align="absmiddle"></a> AI Stylebook · 48 Image Styles Skill
 
 **English** | [简体中文](README.zh-CN.md)
 
