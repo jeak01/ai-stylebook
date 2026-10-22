@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "name": "水下摄影",
+  "name_en": "Underwater",
+  "description": "蓝绿色散射光、柔和焦散与渐弱反差，带来清澈的水下光学质感。",
+  "signature": [
+    "蓝绿色深度衰减",
+    "连续涟漪焦散",
+    "克制悬浮微粒"
+  ],
+  "rendering_prompt": "Use the optical behavior of light passing through a transparent medium, creating depth with cool blue-green tones, distance-dependent contrast reduction, and softly scattered beams. Let continuous, delicate ripple caustics cross the subject's surfaces, with a few suspended particles enriching spatial layers. Moderately attenuate warm colors and soften distant detail. Keep refraction consistent with the lighting direction, maintaining clarity rather than murky defocus.",
+  "avoid": "浑浊虚焦、焦散方向矛盾、凭空加鱼",
+  "nearby_styles": [
+    27
+  ],
+  "difference": "水下摄影模拟传播介质；玻璃拟态改变主体材料",
+  "tuning": "先统一水中光源方向，再让远处降低反差，近处保留清楚轮廓。"
+}

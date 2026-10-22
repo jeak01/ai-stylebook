@@ -1,0 +1,19 @@
+{
+  "id": 30,
+  "name": "新海诚风",
+  "name_en": "Shinkai",
+  "description": "细腻动画描绘与明亮光晕结合，冷暖色丰富，空间澄澈而富有情绪。",
+  "signature": [
+    "精确轮廓",
+    "丰富冷暖",
+    "克制边缘光和空气透视"
+  ],
+  "rendering_prompt": "Use the luminous visual language of a meticulously drawn two-dimensional animated feature. Keep contours clear and render local materials and reflections with precision. Maintain rich warm-cool relationships within vivid colors, creating transparent spatial depth through bright rim light, soft glow, fine gradients, and atmospheric perspective. Highlights may carry restrained lens flare, but brightness must not erase structure. Keep shadows readable and the overall atmosphere radiant and emotionally charged.",
+  "avoid": "眩光吞没结构、复制角色、画面全部过曝",
+  "nearby_styles": [
+    29,
+    31
+  ],
+  "difference": "明亮动画电影重光效与细致空间；复古赛璐璐重有限平涂色块",
+  "tuning": "保留暗部细节，让光只照亮有效边缘与反射面。"
+}

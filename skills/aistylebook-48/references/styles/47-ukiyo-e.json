@@ -1,0 +1,18 @@
+{
+  "id": 47,
+  "name": "浮世绘",
+  "name_en": "Ukiyo-e",
+  "description": "流动墨线与平面套色结合，细微纸纹和渐层印色呈现温润浮世绘质感。",
+  "signature": [
+    "流畅轮廓",
+    "平面套色",
+    "细微渐层印色纸纹"
+  ],
+  "rendering_prompt": "Outline the subject with the clear ink lines of multicolor woodblock printing. Keep contours flowing and rhythmic, simplifying interior structures into flat color fields and a few fine linear textures. Use subdued indigo, reddish ochre, cream, and related colors. Preserve delicate graded printing, paper fibers, and slight registration errors. Moderately flatten space, expressing volume through line and shape while retaining the mellow texture and rhythm of a woodblock print.",
+  "avoid": "自动加海浪或和服、三维塑料、粗暴刀痕",
+  "nearby_styles": [
+    15
+  ],
+  "difference": "浮世绘用流动线条和细致套色；木刻版画强调粗犷刻痕",
+  "tuning": "适度压平空间，以线条节奏保留形体，用靛蓝赭红等温润色。"
+}

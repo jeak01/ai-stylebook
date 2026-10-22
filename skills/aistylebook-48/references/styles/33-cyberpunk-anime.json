@@ -1,0 +1,19 @@
+{
+  "id": 33,
+  "name": "赛博动漫",
+  "name_en": "Cyberpunk Anime",
+  "description": "锐利动画线稿与电青洋红反光交织，明暗分区鲜明，具有冷峻未来感。",
+  "signature": [
+    "锐利二维线稿",
+    "硬边赛璐璐",
+    "电青洋红反光"
+  ],
+  "rendering_prompt": "Shape the subject with sharp two-dimensional animation linework and clearly separated cel-shaded light and shadow. Keep details precise and contours hard-edged. Create strong warm-cool tension with electric cyan, magenta, and deep blue, adding restrained neon reflections and a faint damp sheen. Introduce a precise mechanical rhythm within the existing structure. Keep shadows legible and the overall effect sharp, futuristic, emotionally intense, and distinctly drawn.",
+  "avoid": "自动添加城市或机械肢体、混成纯三维霓虹",
+  "nearby_styles": [
+    38,
+    36
+  ],
+  "difference": "赛博动漫靠线稿和机械节奏；合成波靠电子图形与速度感",
+  "tuning": "保留原有结构，仅在已有轮廓和材料上布置有限霓虹反光。"
+}

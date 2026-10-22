@@ -1,0 +1,18 @@
+{
+  "id": 16,
+  "name": "孔版印刷",
+  "name_en": "Risograph",
+  "description": "专色叠印、粗细网点和轻微错位交织，带有鲜活的独立出版印刷气质。",
+  "signature": [
+    "少量专色",
+    "透明叠印混色",
+    "网点和轻微错位"
+  ],
+  "rendering_prompt": "Use a few vivid spot-color separations in a Risograph print, allowing transparent overlapping inks to produce additional mixed colors. Organize light and shade through visible halftone dots and grain density. Preserve paper fibers, locally uneven ink coverage, and slight misregistration at color boundaries. Distill details graphically for the rough vitality of independent publishing. Keep the palette lively and cohesive, avoiding smooth photographic gradients.",
+  "avoid": "平滑照片渐变、过量油墨色、巨大错位",
+  "nearby_styles": [
+    48
+  ],
+  "difference": "孔版靠专色透明叠印；波普靠强烈图形冲击和饱和对比",
+  "tuning": "先选两到三种墨色，让交叠自然产生更多颜色。"
+}

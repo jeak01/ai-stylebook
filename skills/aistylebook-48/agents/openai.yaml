@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Stylebook · 48 Styles"
+  short_description: "Find and create 48 image styles with visual guidance"
+  default_prompt: "Use $aistylebook-48 to choose an image style and create a prompt that preserves my subject."

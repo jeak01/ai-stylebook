@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "name": "时尚大片",
+  "name_en": "Editorial Fashion",
+  "description": "雕塑感布光与精细材质结合，色彩鲜明克制，具有高级杂志摄影气质。",
+  "signature": [
+    "雕塑感布光",
+    "精细材料",
+    "鲜明但统一的色彩"
+  ],
+  "rendering_prompt": "Use the precise lighting of high-end editorial photography, emphasizing contours, volume, and materials through sculptural light-and-shadow transitions. Keep highlights clean, shadows delicate, and local contrast crisp. Make colors bold within a unified, restrained grade. Preserve microscopic surface textures for a refined, avant-garde image with a clear visual center. Avoid the plastic appearance of excessive surface smoothing.",
+  "avoid": "磨皮蜡感、无关服饰、失控高光",
+  "nearby_styles": [
+    1
+  ],
+  "difference": "时尚大片重材质和精确轮廓光；电影剧照重叙事与影调",
+  "tuning": "收紧色盘，突出一种材质，保留微小表面纹理。"
+}

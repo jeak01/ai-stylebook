@@ -1,0 +1,18 @@
+{
+  "id": 18,
+  "name": "暗黑童话",
+  "name_en": "Dark Fairytale",
+  "description": "细密笔触、深沉色彩与局部微光交织，气氛神秘而带轻微不安。",
+  "signature": [
+    "细密手绘",
+    "深沉低饱和色",
+    "局部微光"
+  ],
+  "rendering_prompt": "Create a mysterious, subtly unsettling fairy-tale atmosphere with meticulous hand drawing and deep, desaturated colors. Lines may stretch or twist slightly, with moderately exaggerated forms and localized glimmers emphasizing key contours. Preserve texture and tonal layers within shadows. Use changes in density for narrative tension, keeping the result refined and restrained. Express mood through form, light, and color rather than simply darkening exposure.",
+  "avoid": "整图压黑、轮廓丢失、自动添加恐怖角色",
+  "nearby_styles": [
+    36
+  ],
+  "difference": "暗黑童话重细密寓言笔触；暗黑动漫重墨线和硬边深影",
+  "tuning": "用局部光和线条变形制造不安，留住暗部层次。"
+}

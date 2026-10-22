@@ -1,0 +1,18 @@
+{
+  "id": 13,
+  "name": "剪纸拼贴",
+  "name_en": "Paper Cutout",
+  "description": "轻微不规则纸边、纸纤维和层间薄影构成温和而有厚度的剪纸拼贴。",
+  "signature": [
+    "有厚度的纸层",
+    "手切微不规则边",
+    "层间薄投影"
+  ],
+  "rendering_prompt": "Break the subject into layered shapes resembling real cut paper, preserving slight irregularities in hand-cut contours. Show restrained paper fibers and embossing, with harmonious colored sheets forming simple color blocks. Establish space through thin, soft cast shadows, overlapping shapes, and visible paper thickness. Maintain the matte finish and flat character of the paper. Avoid plastic gloss or the heavy volume of sculptural objects.",
+  "avoid": "塑料反光、雕塑重体积、无接触的悬浮纸片",
+  "nearby_styles": [
+    11
+  ],
+  "difference": "剪纸要有材料厚度和投影；扁平矢量以纯二维图形为主",
+  "tuning": "用少量纸层组织前后关系，每层只留薄而一致的阴影。"
+}

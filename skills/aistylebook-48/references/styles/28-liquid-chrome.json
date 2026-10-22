@@ -1,0 +1,19 @@
+{
+  "id": 28,
+  "name": "液态金属",
+  "name_en": "Liquid Chrome",
+  "description": "流畅饱满的银色曲面映出宽幅倒影，锐利高光形成液态铬金属质感。",
+  "signature": [
+    "不透明银铬",
+    "连续曲面",
+    "宽幅环境反射"
+  ],
+  "rendering_prompt": "Turn the subject's surface into continuous, full curves resembling flowing chrome, with localized softening, fusion, and stretching while keeping the core silhouette clear. Use opaque, highly reflective silver, describing relief with broad, soft environmental reflections and sharp highlights. A little iridescence may tint the cool silver. Keep surfaces smoothly connected, with metallic weight and a turn-of-the-millennium futuristic character. Reflections should not fragment into visual clutter.",
+  "avoid": "透明玻璃、碎乱高光、失去主体轮廓",
+  "nearby_styles": [
+    27,
+    39
+  ],
+  "difference": "液态金属主要是银铬表面；Y2K 混合塑料软胶与少量金属",
+  "tuning": "用宽幅明暗反射塑造体积，让流动集中在局部转折。"
+}

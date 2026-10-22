@@ -1,0 +1,18 @@
+{
+  "id": 24,
+  "name": "低多边形",
+  "name_en": "Low Poly",
+  "description": "可见多边形切面与利落阴影组成简洁体积，色彩明快，轮廓富有棱角。",
+  "signature": [
+    "可见多边形平面",
+    "邻面明度差",
+    "清晰棱角"
+  ],
+  "rendering_prompt": "Build the subject from a limited number of clearly visible polygonal faces, simplifying the outline into angular segments. Keep each face relatively uniform in color, establishing volume through the orientation and brightness of adjacent planes. Use a bright, harmonious palette and crisp shadows to emphasize structure. Retain moderate spatial depth and recognizability. Avoid smoothly subdivided curves, dense photographic textures, and cubic grid constructions.",
+  "avoid": "光滑细分、照片贴图、立方格拼搭",
+  "nearby_styles": [
+    25
+  ],
+  "difference": "低多边形用任意多边形面；体素必须由同尺度立方体构成",
+  "tuning": "减少面数并让大面描述主要结构，避免细碎噪声般的三角化。"
+}

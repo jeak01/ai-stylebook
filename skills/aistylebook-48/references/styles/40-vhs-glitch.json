@@ -1,0 +1,18 @@
+{
+  "id": 40,
+  "name": "VHS 故障",
+  "name_en": "VHS Glitch",
+  "description": "横向追踪线、色边渗漏与柔化颗粒重现旧录像质感，失真克制而清楚。",
+  "signature": [
+    "横向追踪",
+    "轻微色边分离",
+    "模拟噪点与渗色"
+  ],
+  "rendering_prompt": "Reproduce the low resolution and softened detail of an old analog video signal. Add fine analog noise, horizontal tracking lines, localized scan-line displacement, and slight red-blue fringe separation. Let colors bleed and fade gently, with heavier grain in shadows and soft highlight spill. Keep distortion consistent with horizontal signal behavior, strong enough to convey vintage video texture without obscuring the subject. Avoid random large pixel damage.",
+  "avoid": "随机巨大马赛克、主体不可辨、自动加时间戳",
+  "nearby_styles": [
+    9
+  ],
+  "difference": "VHS 是信号失真；长曝光是连续运动累积",
+  "tuning": "局部错位优先沿水平发生，控制噪点强度，保住主体边界。"
+}

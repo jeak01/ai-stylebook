@@ -1,0 +1,19 @@
+{
+  "id": 19,
+  "name": "复古招贴",
+  "name_en": "Retro Poster",
+  "description": "强轮廓、大色块与温润专色结合，细微印刷颗粒带来经典招贴气质。",
+  "signature": [
+    "强轮廓",
+    "大面积色块",
+    "微细印刷颗粒"
+  ],
+  "rendering_prompt": "Use the graphic language of twentieth-century vintage posters, distilling the subject into strong contours, broad color blocks, and clearly divided light and dark regions. Establish a striking hierarchy and visual center through a limited palette of vintage spot colors. Keep tones rich without excessive vividness. Add subtle screen-print grain, paper texture, and uneven ink coverage, letting concise, forceful shapes carry the poster aesthetic.",
+  "avoid": "自动添加标题、照片质感、过多装饰",
+  "nearby_styles": [
+    41,
+    44
+  ],
+  "difference": "复古招贴是广义印刷语言；复古未来海报强调原子时代的流线未来感",
+  "tuning": "先做单幅主视觉与清晰层级，只有用户要求时加入文字。"
+}

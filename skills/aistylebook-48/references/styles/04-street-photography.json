@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "name": "街头摄影",
+  "name_en": "Street Photography",
+  "description": "略粗粝的现场光与抓拍节奏并存，呈现自然、直接的日常观察感。",
+  "signature": [
+    "直接的环境光",
+    "自然瞬间感",
+    "日常材料痕迹"
+  ],
+  "rendering_prompt": "Give the image the immediacy of candid photography, using available light for direct, slightly rough tonal relationships. Preserve incidental uneven illumination, natural grain, and everyday material traces. Keep colors close to ordinary visual perception and contours clear without fully retouching every detail. Let composition and local sharpness retain the natural rhythm of an observed instant. Avoid the polished uniformity of commercial retouching.",
+  "avoid": "广告式精修、凭空增加街道背景",
+  "nearby_styles": [
+    2
+  ],
+  "difference": "街头摄影重临场节奏；纪实可更安静而持续地观察",
+  "tuning": "让局部清晰度和构图自然，避免每个细节同样完美。"
+}

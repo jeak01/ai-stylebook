@@ -1,0 +1,19 @@
+{
+  "id": 20,
+  "name": "几何扁平",
+  "name_en": "Geometric Flat",
+  "description": "圆弧与多边形有序拼接，少量柔和渐变使二维几何形象清晰而灵活。",
+  "signature": [
+    "圆弧多边形重组",
+    "有限色盘",
+    "邻接和叠压分层"
+  ],
+  "rendering_prompt": "Reorganize the subject into clear geometric units such as circles, arcs, and polygons, compressing complex contours and details into orderly flat shapes. Use a concise, harmonious palette, with extremely restrained smooth gradients in selected fields. Convey layers through adjoining shapes, overlap, and color differences. Retain key identifying features and a two-dimensional design character. Avoid realistic textures and heavy perspective-based volume.",
+  "avoid": "写实纹理、厚重透视、随机几何装饰",
+  "nearby_styles": [
+    11,
+    42
+  ],
+  "difference": "几何扁平允许丰富配色；包豪斯更强调原色与功能秩序",
+  "tuning": "用少量几何单元重建可辨识轮廓，避免只在照片上叠形状。"
+}

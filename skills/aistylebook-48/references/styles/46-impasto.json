@@ -1,0 +1,18 @@
+{
+  "id": 46,
+  "name": "厚涂油画",
+  "name_en": "Impasto",
+  "description": "厚油彩堆积与刀刮脊线形成触觉层次，粗放色块中保有清晰形体。",
+  "signature": [
+    "真实颜料厚度",
+    "刮刀脊线",
+    "色块直接相接"
+  ],
+  "rendering_prompt": "Shape the subject with thick oil paint and palette-knife gestures, giving pigment genuine buildup, scrapes, ridges, and broken texture. Let neighboring color blocks meet directly with moderate blending, balancing broad, bold strokes against key details. Canvas may show faintly through thinly painted areas. Use light to reveal paint relief and tiny cast shadows. Keep forms readable and weighty, avoiding smooth smearing or a uniform relief-filter effect.",
+  "avoid": "平滑涂抹、均匀浮雕滤镜、照片上贴纹理",
+  "nearby_styles": [
+    45
+  ],
+  "difference": "厚涂靠不透明颜料的立体厚度；水彩靠透明水层与纸白",
+  "tuning": "让笔触顺着形体，少数焦点精细，侧光显出颜料小投影。"
+}

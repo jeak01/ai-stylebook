@@ -1,0 +1,19 @@
+{
+  "id": 44,
+  "name": "构成主义",
+  "name_en": "Constructivism",
+  "description": "红黑奶油白的硬边几何与斜线对冲，纸面墨迹增强强烈的现代主义张力。",
+  "signature": [
+    "红黑奶油白",
+    "硬边斜向色面",
+    "强尺度对比"
+  ],
+  "rendering_prompt": "Use a forceful, limited palette of red, black, and cream, compressing the subject into hard-edged geometric color blocks. Bold lines, diagonal planes, and contrasting scales should create a driving visual rhythm. Simplify light and shade, subordinating details to clear contours. Add a little coarse paper grain and uneven vintage ink coverage. Organize composition through shape, angle, and visual weight for direct, energetic modernist tension.",
+  "avoid": "自动加标语、无关政治图像、柔软写实渐变",
+  "nearby_styles": [
+    42,
+    19
+  ],
+  "difference": "构成主义重对角线与动势；包豪斯重秩序与比例",
+  "tuning": "用形状角度和视觉重量产生力量，无需添加文字。"
+}

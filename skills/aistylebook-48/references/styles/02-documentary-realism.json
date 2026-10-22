@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "name": "纪实摄影",
+  "name_en": "Documentary Realism",
+  "description": "自然光与适度颗粒保留现场细节，呈现朴素直接的纪实摄影质感。",
+  "signature": [
+    "可用光",
+    "保留真实表面瑕疵",
+    "适度反差"
+  ],
+  "rendering_prompt": "Use the visual language of direct documentary observation, presenting the subject with available natural light, believable color temperatures, and moderate contrast. Preserve surface wear, small imperfections, and uneven illumination. Keep colors understated and natural, with clear detail that is not oversharpened. Allow subtle grain and reasonable exposure variations to give the image the immediacy of an unpolished, authentic moment.",
+  "avoid": "无瑕棚拍、戏剧特效、过饱和",
+  "nearby_styles": [
+    4
+  ],
+  "difference": "纪实强调真实观察；街头摄影更强调瞬间与抓拍节奏",
+  "tuning": "降低修饰感，保留光线不均和材料磨损。"
+}

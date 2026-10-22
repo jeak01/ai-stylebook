@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "name": "黑白纪实",
+  "name_en": "Black and White Documentary",
+  "description": "丰富灰阶与细微银盐颗粒强调轮廓和材质，气氛安静而有力度。",
+  "signature": [
+    "丰富灰阶",
+    "黑位有层次",
+    "细微银盐颗粒"
+  ],
+  "rendering_prompt": "Render the image entirely in black, white, and a rich range of grays, expressing it through contours, materials, and natural light and shadow. Make deep blacks solid but layered, highlights clean without clipping, and midtones finely separated for strong yet quiet contrast. Add restrained silver-halide grain while retaining authentic surfaces and immediacy. Avoid hard threshold effects and digital sharpening artifacts.",
+  "avoid": "硬阈值黑白、彩色漏出、死黑死白",
+  "nearby_styles": [
+    15
+  ],
+  "difference": "黑白纪实保持连续灰阶；木刻靠刻线与黑白块面",
+  "tuning": "先分离相邻中间灰，再建立黑白端点，最后补细粒。"
+}

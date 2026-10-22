@@ -1,0 +1,19 @@
+{
+  "id": 43,
+  "name": "装饰艺术",
+  "name_en": "Art Deco",
+  "description": "阶梯转折与放射几何融入黑金配色，金属微光呈现克制而华贵的装饰艺术感。",
+  "signature": [
+    "精确阶梯转折",
+    "局部放射与对称",
+    "克制黑金"
+  ],
+  "rendering_prompt": "Use the refined geometric language of 1920s Art Deco. Keep contours smooth and crisp, integrating stepped transitions, radiating lines, and fan-like rhythms within existing structures. Local patterns may have rigorous symmetry while the subject's overall form and arrangement remain natural. Create luxurious but restrained contrast with deep black, warm gold, and a little ivory. Keep metallic sheen delicate and integrate patterns closely with form.",
+  "avoid": "全图强制对称、廉价金粉、繁复花纹遮盖主体",
+  "nearby_styles": [
+    42,
+    19
+  ],
+  "difference": "装饰艺术重精致几何与黑金华贵；包豪斯更克制功能化",
+  "tuning": "把扇形或阶梯节奏融入已有结构，以少量金属微光提亮。"
+}

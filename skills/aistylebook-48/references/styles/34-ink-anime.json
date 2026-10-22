@@ -1,0 +1,18 @@
+{
+  "id": 34,
+  "name": "国风水墨",
+  "name_en": "Ink Anime",
+  "description": "提按枯笔与浓淡晕染交错，清晰轮廓融入留白，呈现空灵流动的水墨感。",
+  "signature": [
+    "提按与枯笔",
+    "浓淡墨层",
+    "清晰到消散的边缘"
+  ],
+  "rendering_prompt": "Distill the subject with brush lines showing pressure changes, turns, dry-brush streaks, and exposed paper. Build depth through dense ink, pale ink, and diluted washes, adding restrained light color locally. Let contours transition naturally between clarity and dissolution, with faint paper fibers. Combine the economy of animated forms with the fluidity of ink painting. Keep identifying features accurate, with open negative space and an airy rhythm of ink and paper.",
+  "avoid": "统一模糊、全画面填满、自动加山水",
+  "nearby_styles": [
+    45
+  ],
+  "difference": "水墨依赖笔势与墨色浓淡；水彩依赖透明彩色颜料和水痕",
+  "tuning": "先保留辨识轮廓，再把次要部分溶入留白。"
+}

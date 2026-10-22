@@ -1,0 +1,19 @@
+{
+  "id": 45,
+  "name": "水彩",
+  "name_en": "Watercolor",
+  "description": "透明叠色、自然洇染与纸白共同塑造形体，颜色清透，笔触轻盈松弛。",
+  "signature": [
+    "透明色层",
+    "自然水痕",
+    "纸白与选择性清晰边"
+  ],
+  "rendering_prompt": "Shape the subject through layers of transparent watercolor pigment, allowing wet colors to bleed and blend naturally into soft edges, tide marks, pale deposits, and occasional dry-brush marks. Let paper fibers show through thin washes and preserve paper white in bright areas. Keep dark colors transparent and brushwork relaxed while key structures remain accurate. Build light and shade through water and layered color for a luminous, airy result, avoiding opaque impasto and uniform blur.",
+  "avoid": "厚重不透明色、整图模糊、均匀滤镜",
+  "nearby_styles": [
+    14,
+    34
+  ],
+  "difference": "水彩是材料机制；绘本是叙事语气；水墨重笔势和墨层",
+  "tuning": "重要结构用干湿结合保住，次要边缘允许自然洇开。"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 42,
+  "name": "包豪斯",
+  "name_en": "Bauhaus",
+  "description": "原色几何与精确比例建立理性结构，平面色块体现克制有力的包豪斯气质。",
+  "signature": [
+    "圆方三角",
+    "红黄蓝黑白",
+    "正负形比例秩序"
+  ],
+  "rendering_prompt": "Distill the subject into geometric relationships made from circles, squares, triangles, and simple straight lines, preserving the most important connections between contours. Use red, yellow, and blue with black, white, and a few neutrals. Keep fields flat and boundaries precise. Establish rational order through size relationships, line weight, and positive-negative contrast, giving forms restrained functionalist strength. Omit realistic materials, complex gradients, and unnecessary ornament.",
+  "avoid": "复杂渐变、写实材质、无关装饰",
+  "nearby_styles": [
+    20,
+    44
+  ],
+  "difference": "包豪斯重理性比例；构成主义重斜线推动与强烈视觉张力",
+  "tuning": "用最少图形保留结构关系，检查留白和面积比例。"
+}

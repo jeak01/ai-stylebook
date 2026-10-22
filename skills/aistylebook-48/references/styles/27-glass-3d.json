@@ -1,0 +1,19 @@
+{
+  "id": 27,
+  "name": "玻璃拟态",
+  "name_en": "Glass 3D",
+  "description": "磨砂半透明表面与透亮边缘交映，柔和折射呈现清洁克制的玻璃体积。",
+  "signature": [
+    "磨砂表面",
+    "透亮厚边",
+    "可信折射和散射"
+  ],
+  "rendering_prompt": "Reshape the subject in frosted glass with realistic thickness, contrasting a finely matte surface with luminous translucent edges. Let softened colors and contours remain visible through the material. Use gentle lighting for believable refraction, internal scattering, light transmission between layers, and small reflective highlights. Keep the structure clearly readable and the overall effect clean, translucent, and restrained. Avoid dazzling crystal brilliance or uniformly transparent plastic.",
+  "avoid": "均匀透明塑料、钻石闪烁、不一致折射",
+  "nearby_styles": [
+    28,
+    10
+  ],
+  "difference": "玻璃透射并折射背景；液态金属不透光、反射环境",
+  "tuning": "先建立厚度，背景经玻璃后要被柔化；避免用透明度代替材质。"
+}

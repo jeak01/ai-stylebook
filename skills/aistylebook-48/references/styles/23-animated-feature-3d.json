@@ -1,0 +1,19 @@
+{
+  "id": 23,
+  "name": "皮克斯风",
+  "name_en": "Pixar-style 3D",
+  "description": "圆润造型、鲜活暖色与细腻柔光相互配合，呈现亲切生动的动画长片质感。",
+  "signature": [
+    "概括圆润造型",
+    "细腻材料",
+    "柔和全局光"
+  ],
+  "rendering_prompt": "Use the three-dimensional design language of an animated feature, expressing the subject through rounded, supple, clearly structured forms. Moderately exaggerate proportions and keep details refined and deliberately distilled. Shape convincing volume with soft global illumination, warm vivid colors, natural contact shadows, and delicate materials. Translucent areas may show subtle subsurface scattering. Keep the result friendly and lively while maintaining recognizability through the subject's own structure.",
+  "avoid": "照搬已有角色、写实蜡像、任意更换身份",
+  "nearby_styles": [
+    21,
+    35
+  ],
+  "difference": "动画长片风依赖精细渲染；Q 版黏土依赖紧凑比例和手塑材质",
+  "tuning": "用圆润形体与轻度夸张描述效果，保留主体自身特征。"
+}

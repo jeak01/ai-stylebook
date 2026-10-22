@@ -1,0 +1,19 @@
+{
+  "id": 37,
+  "name": "蒸汽波",
+  "name_en": "Vaporwave",
+  "description": "柔亮粉紫与薄荷青渐变融入低清颗粒，气氛慵懒、迷幻而复古。",
+  "signature": [
+    "粉紫薄荷青",
+    "淡化渐变",
+    "柔软低清颗粒"
+  ],
+  "rendering_prompt": "Use pinkish purple, mint cyan, and pale blue for a softly luminous retro-digital palette, with slightly faded colors, loose gradients, and subtle electronic distortion. Selected surfaces may show cool chrome highlights or smooth plastic reflections, with moderately simplified detail. Blend fine low-resolution electronic grain with dreamlike detachment. Keep the rhythm languid, psychedelic, and nostalgic, unifying color and light without piling on decoration.",
+  "avoid": "高对比速度线、装饰符号堆砌、抢眼文字",
+  "nearby_styles": [
+    38,
+    39
+  ],
+  "difference": "蒸汽波柔淡慵懒；合成波深色高反差；Y2K 明亮而强调材料",
+  "tuning": "压低反差与锐度，用一组柔亮渐变统一主体和背景。"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 36,
+  "name": "暗黑动漫",
+  "name_en": "Dark Anime",
+  "description": "锐利墨线、大块深影与少量强光形成紧张反差，呈现冷暗而细密的动画气氛。",
+  "signature": [
+    "锐利粗细墨线",
+    "大片有层次深影",
+    "少量亮色"
+  ],
+  "rendering_prompt": "Build a two-dimensional animated image from sharp ink lines of alternating thickness, meticulous details, and broad areas of deep shadow with clear light-dark boundaries. Use a cool, dark base and only a few intense bright accents. Keep blacks weighty and layered without concealing key contours. Preserve some rough hand-drawn marks for a tense, oppressive rhythm. Create drama through form and lighting while keeping detail controlled.",
+  "avoid": "纯黑遮脸、血腥元素自动加入、光影边界发糊",
+  "nearby_styles": [
+    18,
+    33
+  ],
+  "difference": "暗黑动漫重硬边墨线深影；暗黑童话重细密手工与寓言感",
+  "tuning": "把最关键轮廓从黑位中分离，以少量亮色形成视线落点。"
+}

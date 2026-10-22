@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "name": "航拍视角",
+  "name_en": "Aerial Drone Shot",
+  "description": "统一高位俯视角呈现清晰位置关系，空间尺度真实，色彩自然通透。",
+  "signature": [
+    "统一向下的视点",
+    "合理尺度",
+    "远处空气透视"
+  ],
+  "rendering_prompt": "Organize space through a realistic elevated, downward-looking viewpoint that clearly reveals top surfaces, outer contours, and relative positions. Keep the viewing direction consistent, with believable scale, height differences, and depth. Gradually reduce distant contrast through natural atmospheric perspective. Use harmonious colors, clear detail, and photographically plausible lighting. Avoid fisheye distortion or incompatible viewpoints stitched together.",
+  "avoid": "鱼眼、拼接视角、大小关系冲突",
+  "nearby_styles": [
+    12
+  ],
+  "difference": "航拍有真实透视与远近变化；等距插画平行线不汇聚",
+  "tuning": "人物与物品可用适度高机位；保留正面身份时先说明视角取舍。"
+}

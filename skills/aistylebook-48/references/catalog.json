@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 1,
+    "name": "电影剧照",
+    "name_en": "Cinematic Film Still",
+    "slug": "cinematic-film-still",
+    "category": "摄影写实",
+    "aliases": [
+      "电影感",
+      "电影截图",
+      "cinematic",
+      "film still"
+    ],
+    "tags": [
+      "叙事",
+      "电影",
+      "戏剧",
+      "方向光",
+      "cinema"
+    ],
+    "file": "styles/01-cinematic-film-still.json"
+  },
+  {
+    "id": 2,
+    "name": "纪实摄影",
+    "name_en": "Documentary Realism",
+    "slug": "documentary-realism",
+    "category": "摄影写实",
+    "aliases": [
+      "纪实",
+      "真实",
+      "documentary",
+      "realism"
+    ],
+    "tags": [
+      "自然光",
+      "真实",
+      "朴素",
+      "现场",
+      "authentic",
+      "natural"
+    ],
+    "file": "styles/02-documentary-realism.json"
+  },
+  {
+    "id": 3,
+    "name": "时尚大片",
+    "name_en": "Editorial Fashion",
+    "slug": "editorial-fashion",
+    "category": "摄影写实",
+    "aliases": [
+      "时尚",
+      "杂志大片",
+      "fashion",
+      "editorial"
+    ],
+    "tags": [
+      "精致",
+      "杂志",
+      "高级",
+      "雕塑光",
+      "sculptural"
+    ],
+    "file": "styles/03-editorial-fashion.json"
+  },
+  {
+    "id": 4,
+    "name": "街头摄影",
+    "name_en": "Street Photography",
+    "slug": "street-photography",
+    "category": "摄影写实",
+    "aliases": [
+      "街拍",
+      "街头",
+      "street",
+      "candid"
+    ],
+    "tags": [
+      "抓拍",
+      "日常",
+      "现场光",
+      "即兴",
+      "candid"
+    ],
+    "file": "styles/04-street-photography.json"
+  },
+  {
+    "id": 5,
+    "name": "微距特写",
+    "name_en": "Macro Photography",
+    "slug": "macro-photography",
+    "category": "摄影写实",
+    "aliases": [
+      "微距",
+      "特写",
+      "macro",
+      "close-up"
+    ],
+    "tags": [
+      "纤维",
+      "微观",
+      "表面",
+      "浅景深",
+      "texture"
+    ],
+    "file": "styles/05-macro-photography.json"
+  },
+  {
+    "id": 6,
+    "name": "航拍视角",
+    "name_en": "Aerial Drone Shot",
+    "slug": "aerial-drone-shot",
+    "category": "摄影写实",
+    "aliases": [
+      "航拍",
+      "鸟瞰",
+      "俯视",
+      "drone",
+      "aerial",
+      "birdseye"
+    ],
+    "tags": [
+      "高位",
+      "空间",
+      "俯视",
+      "高度",
+      "top-down"
+    ],
+    "file": "styles/06-aerial-drone-shot.json"
+  },
+  {
+    "id": 7,
+    "name": "黑白纪实",
+    "name_en": "Black and White Documentary",
+    "slug": "black-white-documentary",
+    "category": "摄影写实",
+    "aliases": [
+      "黑白",
+      "银盐",
+      "monochrome",
+      "black and white",
+      "bw"
+    ],
+    "tags": [
+      "灰阶",
+      "纪实",
+      "反差",
+      "颗粒",
+      "grayscale"
+    ],
+    "file": "styles/07-black-white-documentary.json"
+  },
+  {
+    "id": 8,
+    "name": "复古胶片",
+    "name_en": "35mm Film",
+    "slug": "35mm-film",
+    "category": "摄影写实",
+    "aliases": [
+      "胶片",
+      "35mm",
+      "负片",
+      "film",
+      "analog"
+    ],
+    "tags": [
+      "怀旧",
+      "暖色",
+      "颗粒",
+      "halation",
+      "nostalgia"
+    ],
+    "file": "styles/08-35mm-film.json"
+  },
+  {
+    "id": 9,
+    "name": "长曝光光绘",
+    "name_en": "Long Exposure",
+    "slug": "long-exposure",
+    "category": "摄影写实",
+    "aliases": [
+      "长曝光",
+      "光绘",
+      "光轨",
+      "light trails",
+      "long exposure"
+    ],
+    "tags": [
+      "运动",
+      "时间",
+      "流动",
+      "夜景",
+      "motion"
+    ],
+    "file": "styles/09-long-exposure.json"
+  },
+  {
+    "id": 10,
+    "name": "水下摄影",
+    "name_en": "Underwater",
+    "slug": "underwater",
+    "category": "摄影写实",
+    "aliases": [
+      "水下",
+      "水底",
+      "underwater",
+      "caustics"
+    ],
+    "tags": [
+      "蓝绿",
+      "散射",
+      "焦散",
+      "清澈",
+      "refraction"
+    ],
+    "file": "styles/10-underwater.json"
+  },
+  {
+    "id": 11,
+    "name": "扁平矢量",
+    "name_en": "Flat Vector",
+    "slug": "flat-vector",
+    "category": "插画平面",
+    "aliases": [
+      "矢量",
+      "扁平",
+      "vector",
+      "flat"
+    ],
+    "tags": [
+      "纯色",
+      "简洁",
+      "轮廓",
+      "二维",
+      "solid"
+    ],
+    "file": "styles/11-flat-vector.json"
+  },
+  {
+    "id": 12,
+    "name": "等距插画",
+    "name_en": "Isometric",
+    "slug": "isometric",
+    "category": "插画平面",
+    "aliases": [
+      "等距",
+      "等轴测",
+      "isometric",
+      "axonometric"
+    ],
+    "tags": [
+      "平行",
+      "投影",
+      "粉彩",
+      "空间",
+      "orthographic"
+    ],
+    "file": "styles/12-isometric.json"
+  },
+  {
+    "id": 13,
+    "name": "剪纸拼贴",
+    "name_en": "Paper Cutout",
+    "slug": "paper-cutout",
+    "category": "插画平面",
+    "aliases": [
+      "剪纸",
+      "纸艺",
+      "拼贴",
+      "papercut",
+      "cut paper",
+      "纸张",
+      "纸雕",
+      "手工纸",
+      "cutout",
+      "papercraft"
+    ],
+    "tags": [
+      "纸边",
+      "层叠",
+      "哑光",
+      "纤维",
+      "paper",
+      "手工",
+      "handmade"
+    ],
+    "file": "styles/13-paper-cutout.json"
+  },
+  {
+    "id": 14,
+    "name": "绘本故事",
+    "name_en": "Storybook",
+    "slug": "storybook",
+    "category": "插画平面",
+    "aliases": [
+      "绘本",
+      "童书",
+      "儿童插画",
+      "children book",
+      "storybook"
+    ],
+    "tags": [
+      "温暖",
+      "童趣",
+      "纸纹",
+      "柔软",
+      "warm"
+    ],
+    "file": "styles/14-storybook.json"
+  },
+  {
+    "id": 15,
+    "name": "木刻版画",
+    "name_en": "Woodcut Print",
+    "slug": "woodcut-print",
+    "category": "插画平面",
+    "aliases": [
+      "木刻",
+      "刻版",
+      "woodcut",
+      "woodblock"
+    ],
+    "tags": [
+      "刻线",
+      "粗犷",
+      "墨",
+      "黑白",
+      "carving"
+    ],
+    "file": "styles/15-woodcut-print.json"
+  },
+  {
+    "id": 16,
+    "name": "孔版印刷",
+    "name_en": "Risograph",
+    "slug": "risograph",
+    "category": "插画平面",
+    "aliases": [
+      "孔版",
+      "riso",
+      "risograph",
+      "速印"
+    ],
+    "tags": [
+      "专色",
+      "错位",
+      "网点",
+      "独立出版",
+      "spot color"
+    ],
+    "file": "styles/16-risograph.json"
+  },
+  {
+    "id": 17,
+    "name": "手绘涂鸦",
+    "name_en": "Doodle",
+    "slug": "doodle",
+    "category": "插画平面",
+    "aliases": [
+      "涂鸦",
+      "随手画",
+      "doodle",
+      "scribble"
+    ],
+    "tags": [
+      "松弛",
+      "线条",
+      "手绘",
+      "活泼",
+      "sketch"
+    ],
+    "file": "styles/17-doodle.json"
+  },
+  {
+    "id": 18,
+    "name": "暗黑童话",
+    "name_en": "Dark Fairytale",
+    "slug": "dark-fairytale",
+    "category": "插画平面",
+    "aliases": [
+      "暗黑童话",
+      "哥特童话",
+      "dark fairytale",
+      "gothic tale"
+    ],
+    "tags": [
+      "神秘",
+      "不安",
+      "细密",
+      "低饱和",
+      "mysterious"
+    ],
+    "file": "styles/18-dark-fairytale.json"
+  },
+  {
+    "id": 19,
+    "name": "复古招贴",
+    "name_en": "Retro Poster",
+    "slug": "retro-poster",
+    "category": "插画平面",
+    "aliases": [
+      "复古海报",
+      "招贴",
+      "retro poster",
+      "vintage poster"
+    ],
+    "tags": [
+      "专色",
+      "大色块",
+      "印刷",
+      "层级",
+      "poster"
+    ],
+    "file": "styles/19-retro-poster.json"
+  },
+  {
+    "id": 20,
+    "name": "几何扁平",
+    "name_en": "Geometric Flat",
+    "slug": "geometric-flat",
+    "category": "插画平面",
+    "aliases": [
+      "几何",
+      "几何扁平",
+      "geometric",
+      "geometric flat"
+    ],
+    "tags": [
+      "圆形",
+      "多边形",
+      "平面",
+      "秩序",
+      "shapes"
+    ],
+    "file": "styles/20-geometric-flat.json"
+  },
+  {
+    "id": 21,
+    "name": "OC 渲染",
+    "name_en": "Octane Render",
+    "slug": "octane-render",
+    "category": "3D 与数字",
+    "aliases": [
+      "OC",
+      "Octane",
+      "路径追踪",
+      "photoreal 3d",
+      "path tracing"
+    ],
+    "tags": [
+      "三维",
+      "物理材质",
+      "全局光",
+      "反射",
+      "PBR"
+    ],
+    "file": "styles/21-octane-render.json"
+  },
+  {
+    "id": 22,
+    "name": "黏土定格",
+    "name_en": "Claymation",
+    "slug": "claymation",
+    "category": "3D 与数字",
+    "aliases": [
+      "黏土",
+      "粘土",
+      "定格",
+      "clay",
+      "stop motion"
+    ],
+    "tags": [
+      "手工",
+      "压痕",
+      "哑光",
+      "接缝",
+      "handmade"
+    ],
+    "file": "styles/22-claymation.json"
+  },
+  {
+    "id": 23,
+    "name": "皮克斯风",
+    "name_en": "Pixar-style 3D",
+    "slug": "animated-feature-3d",
+    "category": "3D 与数字",
+    "aliases": [
+      "皮克斯",
+      "Pixar",
+      "动画长片",
+      "animated feature"
+    ],
+    "tags": [
+      "圆润",
+      "亲切",
+      "表情",
+      "柔光",
+      "3d animation"
+    ],
+    "file": "styles/23-animated-feature-3d.json"
+  },
+  {
+    "id": 24,
+    "name": "低多边形",
+    "name_en": "Low Poly",
+    "slug": "low-poly",
+    "category": "3D 与数字",
+    "aliases": [
+      "低模",
+      "低多边形",
+      "lowpoly",
+      "low poly"
+    ],
+    "tags": [
+      "切面",
+      "棱角",
+      "多边形",
+      "facet",
+      "polygon"
+    ],
+    "file": "styles/24-low-poly.json"
+  },
+  {
+    "id": 25,
+    "name": "体素",
+    "name_en": "Voxel Art",
+    "slug": "voxel-art",
+    "category": "3D 与数字",
+    "aliases": [
+      "体素",
+      "方块",
+      "voxel",
+      "cubic pixels"
+    ],
+    "tags": [
+      "立方体",
+      "网格",
+      "阶梯",
+      "等距",
+      "blocks"
+    ],
+    "file": "styles/25-voxel-art.json"
+  },
+  {
+    "id": 26,
+    "name": "毛毡玩偶",
+    "name_en": "Felt Plush",
+    "slug": "felt-plush",
+    "category": "3D 与数字",
+    "aliases": [
+      "毛毡",
+      "针毡",
+      "羊毛",
+      "felt",
+      "needle felt"
+    ],
+    "tags": [
+      "短纤维",
+      "柔软",
+      "手工",
+      "温暖",
+      "wool"
+    ],
+    "file": "styles/26-felt-plush.json"
+  },
+  {
+    "id": 27,
+    "name": "玻璃拟态",
+    "name_en": "Glass 3D",
+    "slug": "glass-3d",
+    "category": "3D 与数字",
+    "aliases": [
+      "磨砂玻璃",
+      "玻璃",
+      "glass",
+      "frosted glass"
+    ],
+    "tags": [
+      "半透明",
+      "折射",
+      "厚度",
+      "干净",
+      "translucent"
+    ],
+    "file": "styles/27-glass-3d.json"
+  },
+  {
+    "id": 28,
+    "name": "液态金属",
+    "name_en": "Liquid Chrome",
+    "slug": "liquid-chrome",
+    "category": "3D 与数字",
+    "aliases": [
+      "液态金属",
+      "铬",
+      "chrome",
+      "liquid metal"
+    ],
+    "tags": [
+      "银色",
+      "镜面",
+      "流动",
+      "冷色",
+      "metallic"
+    ],
+    "file": "styles/28-liquid-chrome.json"
+  },
+  {
+    "id": 29,
+    "name": "吉卜力风",
+    "name_en": "Ghibli",
+    "slug": "warm-handdrawn-anime",
+    "category": "动漫二次元",
+    "aliases": [
+      "吉卜力",
+      "Ghibli",
+      "温暖手绘动画"
+    ],
+    "tags": [
+      "田园",
+      "诗意",
+      "自然",
+      "手绘",
+      "nostalgic anime"
+    ],
+    "file": "styles/29-warm-handdrawn-anime.json"
+  },
+  {
+    "id": 30,
+    "name": "新海诚风",
+    "name_en": "Shinkai",
+    "slug": "luminous-anime",
+    "category": "动漫二次元",
+    "aliases": [
+      "新海诚",
+      "Shinkai",
+      "明亮动画电影"
+    ],
+    "tags": [
+      "通透",
+      "冷暖",
+      "光晕",
+      "天空",
+      "luminous"
+    ],
+    "file": "styles/30-luminous-anime.json"
+  },
+  {
+    "id": 31,
+    "name": "复古赛璐璐",
+    "name_en": "Retro Cel",
+    "slug": "retro-cel",
+    "category": "动漫二次元",
+    "aliases": [
+      "赛璐璐",
+      "90年代动画",
+      "cel",
+      "retro anime"
+    ],
+    "tags": [
+      "平涂",
+      "墨线",
+      "胶片",
+      "怀旧",
+      "cel shading"
+    ],
+    "file": "styles/31-retro-cel.json"
+  },
+  {
+    "id": 32,
+    "name": "韩漫风",
+    "name_en": "Webtoon",
+    "slug": "webtoon",
+    "category": "动漫二次元",
+    "aliases": [
+      "韩漫",
+      "网漫",
+      "webtoon",
+      "korean comic"
+    ],
+    "tags": [
+      "清爽",
+      "精细",
+      "柔和上色",
+      "二维",
+      "clean lines"
+    ],
+    "file": "styles/32-webtoon.json"
+  },
+  {
+    "id": 33,
+    "name": "赛博动漫",
+    "name_en": "Cyberpunk Anime",
+    "slug": "cyberpunk-anime",
+    "category": "动漫二次元",
+    "aliases": [
+      "赛博",
+      "赛博朋克动漫",
+      "cyberpunk",
+      "cyber anime"
+    ],
+    "tags": [
+      "霓虹",
+      "青红",
+      "未来",
+      "锐利",
+      "neon"
+    ],
+    "file": "styles/33-cyberpunk-anime.json"
+  },
+  {
+    "id": 34,
+    "name": "国风水墨",
+    "name_en": "Ink Anime",
+    "slug": "ink-anime",
+    "category": "动漫二次元",
+    "aliases": [
+      "水墨",
+      "国风",
+      "ink",
+      "ink wash"
+    ],
+    "tags": [
+      "留白",
+      "毛笔",
+      "枯笔",
+      "空灵",
+      "brush"
+    ],
+    "file": "styles/34-ink-anime.json"
+  },
+  {
+    "id": 35,
+    "name": "Q 版黏土",
+    "name_en": "Chibi Clay",
+    "slug": "chibi-clay",
+    "category": "动漫二次元",
+    "aliases": [
+      "Q版",
+      "可爱黏土",
+      "chibi",
+      "cute clay"
+    ],
+    "tags": [
+      "短粗",
+      "圆润",
+      "可爱",
+      "手塑",
+      "cute"
+    ],
+    "file": "styles/35-chibi-clay.json"
+  },
+  {
+    "id": 36,
+    "name": "暗黑动漫",
+    "name_en": "Dark Anime",
+    "slug": "dark-anime",
+    "category": "动漫二次元",
+    "aliases": [
+      "暗黑动漫",
+      "黑暗动画",
+      "dark anime"
+    ],
+    "tags": [
+      "深影",
+      "墨线",
+      "冷色",
+      "紧张",
+      "dramatic"
+    ],
+    "file": "styles/36-dark-anime.json"
+  },
+  {
+    "id": 37,
+    "name": "蒸汽波",
+    "name_en": "Vaporwave",
+    "slug": "vaporwave",
+    "category": "复古未来",
+    "aliases": [
+      "蒸汽波",
+      "vaporwave",
+      "pastel digital"
+    ],
+    "tags": [
+      "粉紫",
+      "薄荷",
+      "慵懒",
+      "迷幻",
+      "dreamy"
+    ],
+    "file": "styles/37-vaporwave.json"
+  },
+  {
+    "id": 38,
+    "name": "合成波",
+    "name_en": "Synthwave Outrun",
+    "slug": "synthwave-outrun",
+    "category": "复古未来",
+    "aliases": [
+      "合成波",
+      "synthwave",
+      "outrun",
+      "80s neon"
+    ],
+    "tags": [
+      "速度",
+      "深蓝",
+      "电青",
+      "霓虹",
+      "grid"
+    ],
+    "file": "styles/38-synthwave-outrun.json"
+  },
+  {
+    "id": 39,
+    "name": "Y2K 千禧风",
+    "name_en": "Y2K",
+    "slug": "y2k",
+    "category": "复古未来",
+    "aliases": [
+      "千禧",
+      "Y2K",
+      "千禧科技",
+      "millennium"
+    ],
+    "tags": [
+      "软胶",
+      "糖果",
+      "银白",
+      "乐观",
+      "glossy"
+    ],
+    "file": "styles/39-y2k.json"
+  },
+  {
+    "id": 40,
+    "name": "VHS 故障",
+    "name_en": "VHS Glitch",
+    "slug": "vhs-glitch",
+    "category": "复古未来",
+    "aliases": [
+      "VHS",
+      "录像带",
+      "故障",
+      "glitch",
+      "analog video"
+    ],
+    "tags": [
+      "扫描线",
+      "色边",
+      "信号",
+      "柔化",
+      "tracking"
+    ],
+    "file": "styles/40-vhs-glitch.json"
+  },
+  {
+    "id": 41,
+    "name": "复古未来海报",
+    "name_en": "Retro Sci-Fi Poster",
+    "slug": "retro-scifi-poster",
+    "category": "复古未来",
+    "aliases": [
+      "复古未来",
+      "原子时代",
+      "retro sci-fi",
+      "atomic age"
+    ],
+    "tags": [
+      "流线",
+      "乐观",
+      "印刷",
+      "科幻",
+      "futurist"
+    ],
+    "file": "styles/41-retro-scifi-poster.json"
+  },
+  {
+    "id": 42,
+    "name": "包豪斯",
+    "name_en": "Bauhaus",
+    "slug": "bauhaus",
+    "category": "复古未来",
+    "aliases": [
+      "包豪斯",
+      "Bauhaus",
+      "原色几何"
+    ],
+    "tags": [
+      "理性",
+      "原色",
+      "功能",
+      "比例",
+      "primary colors"
+    ],
+    "file": "styles/42-bauhaus.json"
+  },
+  {
+    "id": 43,
+    "name": "装饰艺术",
+    "name_en": "Art Deco",
+    "slug": "art-deco",
+    "category": "复古未来",
+    "aliases": [
+      "装饰艺术",
+      "Art Deco",
+      "黑金"
+    ],
+    "tags": [
+      "奢华",
+      "阶梯",
+      "扇形",
+      "放射",
+      "gold"
+    ],
+    "file": "styles/43-art-deco.json"
+  },
+  {
+    "id": 44,
+    "name": "构成主义",
+    "name_en": "Constructivism",
+    "slug": "constructivism",
+    "category": "复古未来",
+    "aliases": [
+      "构成主义",
+      "Constructivism",
+      "红黑"
+    ],
+    "tags": [
+      "斜线",
+      "张力",
+      "几何",
+      "纸墨",
+      "dynamic"
+    ],
+    "file": "styles/44-constructivism.json"
+  },
+  {
+    "id": 45,
+    "name": "水彩",
+    "name_en": "Watercolor",
+    "slug": "watercolor",
+    "category": "艺术绘画",
+    "aliases": [
+      "水彩",
+      "watercolour",
+      "watercolor",
+      "透明水彩"
+    ],
+    "tags": [
+      "透明",
+      "洇染",
+      "留白",
+      "纸纹",
+      "washes"
+    ],
+    "file": "styles/45-watercolor.json"
+  },
+  {
+    "id": 46,
+    "name": "厚涂油画",
+    "name_en": "Impasto",
+    "slug": "impasto",
+    "category": "艺术绘画",
+    "aliases": [
+      "厚涂",
+      "油画",
+      "impasto",
+      "palette knife",
+      "oil paint"
+    ],
+    "tags": [
+      "堆积",
+      "笔触",
+      "刀痕",
+      "触觉",
+      "paint ridges"
+    ],
+    "file": "styles/46-impasto.json"
+  },
+  {
+    "id": 47,
+    "name": "浮世绘",
+    "name_en": "Ukiyo-e",
+    "slug": "ukiyo-e",
+    "category": "艺术绘画",
+    "aliases": [
+      "浮世绘",
+      "ukiyo-e",
+      "日本木版",
+      "Japanese woodblock"
+    ],
+    "tags": [
+      "流动墨线",
+      "套色",
+      "靛蓝",
+      "平面",
+      "woodblock"
+    ],
+    "file": "styles/47-ukiyo-e.json"
+  },
+  {
+    "id": 48,
+    "name": "波普艺术",
+    "name_en": "Pop Art",
+    "slug": "pop-art",
+    "category": "艺术绘画",
+    "aliases": [
+      "波普",
+      "Pop Art",
+      "流行艺术",
+      "halftone"
+    ],
+    "tags": [
+      "高饱和",
+      "网点",
+      "强对比",
+      "套印",
+      "pop"
+    ],
+    "file": "styles/48-pop-art.json"
+  }
+]

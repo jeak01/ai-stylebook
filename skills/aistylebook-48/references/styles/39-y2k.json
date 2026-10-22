@@ -1,0 +1,19 @@
+{
+  "id": 39,
+  "name": "Y2K 千禧风",
+  "name_en": "Y2K",
+  "description": "圆润亮面形体融合半透明软胶与银铬反光，色彩清亮，充满千禧科技趣味。",
+  "signature": [
+    "圆润数字造型",
+    "亮塑料与软胶",
+    "少量铬反光"
+  ],
+  "rendering_prompt": "Shape the subject with the optimistic technological aesthetics of the early millennium. Use full, rounded forms and refined details reminiscent of early digital toys. Harmonize glossy plastic, translucent soft-gel materials, and small touches of liquid-chrome reflection. Clear silver-white, ice blue, candy pink, and related bright colors should create lively contrast. Keep edges smooth, highlights crisp, and materials distinct for a light, fashionable result without relying on added decoration.",
+  "avoid": "全表面金属、暗黑霓虹、自动贴品牌标志",
+  "nearby_styles": [
+    28,
+    37
+  ],
+  "difference": "Y2K 混合多种明亮科技材质；液态金属以连续银铬为主",
+  "tuning": "让塑料、软胶、铬各有可辨的反光方式，保持轮廓光滑。"
+}

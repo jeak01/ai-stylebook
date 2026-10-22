@@ -1,0 +1,19 @@
+{
+  "id": 15,
+  "name": "木刻版画",
+  "name_en": "Woodcut Print",
+  "description": "有力度的刻线、粗犷黑白块面和不均匀墨迹，呈现手工木刻印刷质感。",
+  "signature": [
+    "有方向的刀痕",
+    "强黑白或少量套色",
+    "不均匀墨迹"
+  ],
+  "rendering_prompt": "Reconstruct the subject with strong black-and-white shapes or a few separately printed colors, giving contours the force of carved wood. Use directional cuts with varying widths and natural breaks. Build light and shade through dense carving marks, crosshatching, and negative space. Retain wood grain, uneven ink coverage, and impressions in the paper for rugged, rhythmic forms. Avoid smooth vector edges and continuous photographic gray tones.",
+  "avoid": "平滑矢量边、连续摄影灰阶",
+  "nearby_styles": [
+    47,
+    7
+  ],
+  "difference": "木刻重粗犷刀痕；浮世绘重流动轮廓和精细套色",
+  "tuning": "用疏密刻线替代柔和明暗，保留刻线自然断裂。"
+}

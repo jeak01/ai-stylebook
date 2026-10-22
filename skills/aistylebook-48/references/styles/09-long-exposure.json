@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "name": "长曝光光绘",
+  "name_en": "Long Exposure",
+  "description": "清晰静态结构与连续光迹形成对照，呈现光线随时间积累的流动感。",
+  "signature": [
+    "静止结构清楚",
+    "轨迹方向合理",
+    "曝光连续积累"
+  ],
+  "rendering_prompt": "Convey light accumulating over time in a long-exposure photograph. Keep stationary structures clear and stable while existing moving elements extend into continuous, smooth trails along plausible paths. Bright regions may leave fine light streaks, with reflections and subtle movement blending naturally. Keep shadows clean and layered. Align trail direction, perceived speed, and illumination while preserving recognizability. Avoid uniformly blurring the entire image.",
+  "avoid": "整幅模糊、静物无缘由发光",
+  "nearby_styles": [
+    40
+  ],
+  "difference": "长曝光表现连续时间；VHS 故障表现横向信号损坏",
+  "tuning": "没有运动来源时先使用已有反光和微小运动，新增光源须符合任务。"
+}

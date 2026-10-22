@@ -1,0 +1,19 @@
+{
+  "id": 41,
+  "name": "复古未来海报",
+  "name_en": "Retro Sci-Fi Poster",
+  "description": "流线形体与温润鲜色配合细小印刷网点，呈现乐观的原子时代未来气质。",
+  "signature": [
+    "流线简化",
+    "温润鲜色",
+    "细网点和纸面墨迹"
+  ],
+  "rendering_prompt": "Use the optimistic design language of Atomic Age science-fiction illustration, reshaping the subject through boldly simplified forms, streamlined curves, and strong blocks of light and dark. Make colors vivid but mellow with the warmth of vintage printing. Preserve fine halftone dots, paper texture, and locally uneven ink coverage. Let space and detail serve graphic rhythm, creating a buoyant early-futurist atmosphere through clear contours rather than added symbols.",
+  "avoid": "自动加飞船、星球、标题、纯数码渐变",
+  "nearby_styles": [
+    19,
+    39
+  ],
+  "difference": "原子时代复古未来偏印刷与流线；Y2K 偏亮面数字材料",
+  "tuning": "让现有轮廓流线化，以色块明暗制造早期未来主义气质。"
+}

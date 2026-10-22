@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "name": "微距特写",
+  "name_en": "Macro Photography",
+  "description": "微小纹理和表面起伏清晰可见，柔光与浅景深突出细致材质。",
+  "signature": [
+    "准确的微小纹理尺度",
+    "柔和方向光",
+    "自然焦点过渡"
+  ],
+  "rendering_prompt": "Describe existing surface fibers, particles, pores, and minute relief with macro-photographic resolving power, keeping texture scale and material behavior consistent. Use soft, directional light so tiny highlights and shadows reveal thickness. Let sharp regions carry the continuous detail of focus stacking, with natural transitions into defocus. Control sharpening while retaining the subject's complete structure and recognizable contours.",
+  "avoid": "过度锐化、巨大纹理、无意裁掉主体",
+  "nearby_styles": [
+    3
+  ],
+  "difference": "微距以纹理与尺度为重点；时尚大片以整体轮廓和布光为重点",
+  "tuning": "若用户要求完整主体，增强表面解析力而非强制近裁切。"
+}

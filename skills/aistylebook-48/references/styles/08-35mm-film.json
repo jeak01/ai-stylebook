@@ -1,0 +1,18 @@
+{
+  "id": 8,
+  "name": "复古胶片",
+  "name_en": "35mm Film",
+  "description": "柔暖色调、细密颗粒和轻微高光晕染，呈现温和自然的胶片怀旧感。",
+  "signature": [
+    "柔暖中间调",
+    "柔和高光压缩",
+    "轻微晕染与随机颗粒"
+  ],
+  "rendering_prompt": "Simulate the gentle response curve of color negative film, combining slightly warm midtones, subdued natural colors, and fine, irregular silver-halide grain. Give highlights slight halation and smooth compression; gently lift shadows without losing tonal separation. Keep color transitions soft and nuanced. An extremely faint trace of light leakage is acceptable, but the image should remain clear and believable. Avoid heavy brown filters or large obscuring light patches.",
+  "avoid": "重棕滤镜、大片漏光、脏污覆盖",
+  "nearby_styles": [
+    1
+  ],
+  "difference": "复古胶片重色彩响应；电影剧照重照明组织",
+  "tuning": "减弱滤镜色偏，保留肤色或物体本色，让颗粒最后出现。"
+}

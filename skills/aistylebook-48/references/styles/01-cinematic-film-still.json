@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "电影剧照",
+  "name_en": "Cinematic Film Still",
+  "description": "方向明确的电影布光，柔和高光与细密胶片颗粒营造含蓄叙事感。",
+  "signature": [
+    "方向明确的主光",
+    "柔和高光过渡",
+    "细而不规则的颗粒"
+  ],
+  "rendering_prompt": "Shape the image with the tonal depth of motion-picture film photography. Use a clearly directional key light, restrained fill, and natural cast shadows to establish a narrative atmosphere. Coordinate warm and cool tones, soften highlight roll-off, retain shadow detail, and add fine, irregular film grain. Let sharp and defocused areas transition smoothly. Keep materials believable and avoid sharpening halos or excessive lighting effects.",
+  "avoid": "塑料皮肤、过度锐化、廉价光晕",
+  "nearby_styles": [
+    8
+  ],
+  "difference": "电影剧照靠布光与叙事层次；复古胶片更强调负片响应与日常暖色",
+  "tuning": "先明确主光方向，再调冷暖关系，最后少量加颗粒。"
+}

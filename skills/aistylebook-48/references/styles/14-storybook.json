@@ -1,0 +1,19 @@
+{
+  "id": 14,
+  "name": "绘本故事",
+  "name_en": "Storybook",
+  "description": "柔软轮廓与透明叠色融入纸纹，呈现温暖亲切、略带童趣的绘本气质。",
+  "signature": [
+    "略稚拙的简化",
+    "柔软轮廓",
+    "透明叠色与纸纹"
+  ],
+  "rendering_prompt": "Use the gentle visual language of a storybook, simplifying forms with a slightly naive touch, soft contours, warm harmonious colors, and light imaginative charm. Build texture through transparent watercolor layers, soft bleeding, and natural paper grain. Keep details refined without pursuing photographic realism. Make light and shade gentle and readable, retaining core identifying features while using varied density and color-block rhythm for an approachable image.",
+  "avoid": "写实细节堆积、塑料材质、无关童话道具",
+  "nearby_styles": [
+    45,
+    29
+  ],
+  "difference": "绘本强调亲切叙事与简化；水彩首先是颜料和纸的行为",
+  "tuning": "减少小细节，保持主体特征，在透明颜色和留白中建立温度。"
+}

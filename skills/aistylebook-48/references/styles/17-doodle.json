@@ -1,0 +1,18 @@
+{
+  "id": 17,
+  "name": "手绘涂鸦",
+  "name_en": "Doodle",
+  "description": "轻微抖动的随手线条与不均匀涂色，形成松弛、活泼的手绘趣味。",
+  "signature": [
+    "轻微抖线",
+    "回描与出锋",
+    "不均匀涂色"
+  ],
+  "rendering_prompt": "Summarize the subject with spontaneous hand-drawn lines, preserving slight wobble, repeated tracing, small overshoots, and natural stroke endings. Use varied line weights, dry and wet marks, and uneven coloring to create a relaxed rhythm with a few cheerful, harmonious colors. Keep forms lively and free while retaining clear key structures. Let the ground suit the image, with the feel of an unpolished idea sketch rather than tidy vector outlines.",
+  "avoid": "规整矢量描边、复杂写实阴影",
+  "nearby_styles": [
+    14
+  ],
+  "difference": "涂鸦重即兴线条；绘本重柔和层色和叙事画面",
+  "tuning": "让线条有快慢粗细，保留关键结构，减少装饰线的数量。"
+}

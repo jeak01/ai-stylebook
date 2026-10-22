@@ -1,0 +1,18 @@
+{
+  "id": 48,
+  "name": "波普艺术",
+  "name_en": "Pop Art",
+  "description": "高饱和纯色、粗网点与轻微套印错位，形成直接鲜活的波普图像力量。",
+  "signature": [
+    "大胆平轮廓",
+    "强冷暖纯色",
+    "粗网点和套印"
+  ],
+  "rendering_prompt": "Distill the subject into striking flat contours, redistributing light and shade through highly saturated solid colors and strong warm-cool contrast. Add coarse halftone dots and overlapping screen-printed layers in selected areas. Keep boundaries clear, ink grain visible, and registration slightly imperfect. Make the core form distinctly recognizable. Convey vivid popular-image energy through bold color and the tension of a single graphic composition.",
+  "avoid": "自动复制四宫格、凭空加文字、照片灰阶",
+  "nearby_styles": [
+    16
+  ],
+  "difference": "波普重直接强烈图像冲击；孔版重专色透明叠印",
+  "tuning": "保持单幅构图，用不同网点密度组织明暗，保留核心辨识性。"
+}

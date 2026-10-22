@@ -1,0 +1,19 @@
+{
+  "id": 25,
+  "name": "体素",
+  "name_en": "Voxel Art",
+  "description": "统一立方网格形成阶梯轮廓，等距视角与柔光突出立体方块的叠层秩序。",
+  "signature": [
+    "统一立方网格",
+    "阶梯轮廓",
+    "正交等距视角"
+  ],
+  "rendering_prompt": "Reconstruct the subject on a uniform-scale cubic grid, creating clearly stepped outer contours. Express detail through block colors, arrangements, and height differences. Use strict orthographic isometric projection with parallel corresponding edges, no vanishing points, and equal scale along all axes. Let soft lighting emphasize stacked blocks and contact shadows. Preserve square surfaces for the finish of a finely crafted three-dimensional pixel model.",
+  "avoid": "三角切面、任意大小方块、透视收缩",
+  "nearby_styles": [
+    24,
+    12
+  ],
+  "difference": "体素是立方格造型；等距只约束投影；低多边形不是方块",
+  "tuning": "先统一体素尺度，再通过颜色和高度表现细节。"
+}

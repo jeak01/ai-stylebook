@@ -1,0 +1,19 @@
+{
+  "id": 21,
+  "name": "OC 渲染",
+  "name_en": "Octane Render",
+  "description": "物理准确的反射与柔和全局照明呈现细腻材质，体积清晰而光线干净。",
+  "signature": [
+    "可信全局照明",
+    "物理一致反射",
+    "清楚材质差别"
+  ],
+  "rendering_prompt": "Use high-quality path-traced rendering, shaping the subject through accurate geometric volume, global illumination, and soft contact shadows. Give different materials believable roughness, fine surface variation, translucency, and reflective strength, with natural subsurface scattering where appropriate. Keep lighting clean and restrained, and reflections physically plausible. Details should remain clear without excessive smoothness. Avoid giving every surface the same plastic material.",
+  "avoid": "所有表面同样油亮、噪点、失真折射",
+  "nearby_styles": [
+    23,
+    27
+  ],
+  "difference": "OC 渲染强调写实光照和材料；动画长片风强调圆润夸张造型",
+  "tuning": "先区分粗糙度与反射，再调灯光；风格名称不要求安装指定渲染器。"
+}

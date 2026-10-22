@@ -1,0 +1,19 @@
+{
+  "id": 29,
+  "name": "吉卜力风",
+  "name_en": "Ghibli",
+  "description": "清新低调的色彩与细腻手绘笔触结合，光线温暖，气氛朴素而诗意。",
+  "signature": [
+    "温暖日常光",
+    "清新低调颜色",
+    "水彩与不透明颜料叠层"
+  ],
+  "rendering_prompt": "Use the warm, nostalgic language of hand-drawn two-dimensional animation, with natural relaxed forms, gentle lines, and delicate, unshowy brushwork. Keep colors fresh but subdued and light-and-shadow shapes clearly defined. Layer watercolor-like and opaque colors while retaining paper texture and brushstroke variation. Give the light an everyday warmth. Make details modest and lively, producing a light, understated, poetic handmade finish.",
+  "avoid": "复制已有角色、强霓虹、塑料三维",
+  "nearby_styles": [
+    30,
+    14
+  ],
+  "difference": "温暖手绘动画重朴素笔触；明亮电影动画重精细光效和通透空间",
+  "tuning": "用材质与光线描述风格，减少华丽光效，保留自然轻松的形体。"
+}

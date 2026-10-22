@@ -1,0 +1,19 @@
+{
+  "id": 11,
+  "name": "扁平矢量",
+  "name_en": "Flat Vector",
+  "description": "有限纯色和利落轮廓构成二维形象，结构简洁，视觉清晰轻快。",
+  "signature": [
+    "有限纯色",
+    "清晰剪影",
+    "少量必要平面阴影"
+  ],
+  "rendering_prompt": "Reduce the subject to two-dimensional color shapes with clean boundaries and a distinct silhouette, using a limited, harmonious palette of solid colors. Separate layers through shape proportions, tonal differences, and a few essential flat shadows. Keep curves smooth and simplify details selectively while retaining immediately recognizable contours. Make the image fresh and clear, without realistic textures, complex gradients, or the soft glow of volumetric rendering.",
+  "avoid": "写实纹理、复杂渐变、三维辉光",
+  "nearby_styles": [
+    20,
+    42
+  ],
+  "difference": "扁平矢量可自由曲线；几何扁平以几何单元构形；包豪斯强调原色比例",
+  "tuning": "先检查纯黑剪影是否可辨，再以少量色块恢复层次。"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 38,
+  "name": "合成波",
+  "name_en": "Synthwave Outrun",
+  "description": "深蓝紫阴影与高饱和霓虹轮廓对比，线框节奏带来鲜明电子速度感。",
+  "signature": [
+    "深蓝紫底",
+    "高反差霓虹轮廓",
+    "规则电子节奏"
+  ],
+  "rendering_prompt": "Use the high-contrast electronic imagery of the 1980s, anchoring shadows in deep blue and purple while magenta, electric cyan, and orange-pink gradients create vivid highlights. Make contours streamlined and sharp with restrained neon glow. Distill existing structures into precise wireframes and grid rhythms where appropriate. Keep light-dark divisions crisp and colors intense, suggesting the regular pulse and speed of electronic music rather than diffuse, faded color.",
+  "avoid": "褪色低反差、强制添加汽车或落日",
+  "nearby_styles": [
+    37,
+    33
+  ],
+  "difference": "合成波是高反差电子图形；蒸汽波是柔淡数码怀旧",
+  "tuning": "沿已有结构建立线框节奏，避免新增与主题无关的网格地平线。"
+}

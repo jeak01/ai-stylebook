@@ -1,0 +1,18 @@
+{
+  "id": 32,
+  "name": "韩漫风",
+  "name_en": "Webtoon",
+  "description": "整洁精细的线条配合柔和赛璐璐上色，色彩明亮协调，具有清爽韩漫画面感。",
+  "signature": [
+    "整洁线稿",
+    "柔和赛璐璐",
+    "克制渐变高光"
+  ],
+  "rendering_prompt": "Use the clean, refined drawing language of modern Korean webcomics. Make lines smooth and tidy, contours accurate, and details carefully distilled, with restrained line-weight variation. Base coloring on clear blocks and soft cel shading, adding a few smooth gradients and delicate highlights within a bright, harmonious palette. Gently idealize structure and materials without losing recognizability. Keep the overall two-dimensional treatment light, detailed, and easy to read.",
+  "avoid": "自动生成对话框、全画面三维渲染、过度磨皮",
+  "nearby_styles": [
+    31
+  ],
+  "difference": "韩漫重清爽数码线稿；复古赛璐璐重手工墨线和胶片感",
+  "tuning": "控制线宽变化，减少不必要细节，以明亮统一色盘保持可读性。"
+}

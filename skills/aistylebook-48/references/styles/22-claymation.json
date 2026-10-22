@@ -1,0 +1,19 @@
+{
+  "id": 22,
+  "name": "黏土定格",
+  "name_en": "Claymation",
+  "description": "圆润手捏形体带指纹与接缝，哑光表面和柔光体现温暖定格质感。",
+  "signature": [
+    "手塑小不规则",
+    "可见压痕接缝",
+    "真实接触阴影"
+  ],
+  "rendering_prompt": "Shape the subject as a hand-molded clay object with rounded, slightly asymmetric forms. Preserve small fingerprints, dents, seams, and kneading marks. Colors should seem intrinsic to colored clay, with a matte finish and only a little warm, oily sheen. Use soft lighting and realistic contact shadows to reveal the thickness of a small physical object, conveying the warm, slightly awkward handmade character of stop-motion animation.",
+  "avoid": "光滑塑料、毛绒纤维、自动Q版化",
+  "nearby_styles": [
+    35,
+    26
+  ],
+  "difference": "黏土定格保留原比例；Q 版黏土额外压缩比例；毛毡有短纤维",
+  "tuning": "在关键转折处保留手塑痕迹，以温柔棚光表现材料。"
+}

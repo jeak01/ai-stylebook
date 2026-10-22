@@ -1,0 +1,19 @@
+{
+  "id": 35,
+  "name": "Q 版黏土",
+  "name_en": "Chibi Clay",
+  "description": "紧凑圆润的简化比例配合哑光黏土压痕，呈现柔软亲切的可爱手塑感。",
+  "signature": [
+    "紧凑短粗比例",
+    "少量辨识特征",
+    "哑光压痕"
+  ],
+  "rendering_prompt": "Simplify the subject into compact, plump, soft, rounded volumes, using short, thick structural proportions for a lighthearted, adorable form. Keep a hand-molded clay surface with a matte finish, tiny pressure marks, and gentle seams. Express key identifying features through a few clear shapes. Use clean, welcoming colors, soft light, and warm delicate contact shadows. Avoid glossy plastic or fluffy fiber materials.",
+  "avoid": "写实比例、光亮塑料、毛绒材料",
+  "nearby_styles": [
+    22,
+    23
+  ],
+  "difference": "Q 版黏土强调短粗比例；普通黏土定格可保持自然比例",
+  "tuning": "先选出最关键的两三处识别特征，再压缩非关键结构。"
+}

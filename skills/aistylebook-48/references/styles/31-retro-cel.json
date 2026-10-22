@@ -1,0 +1,18 @@
+{
+  "id": 31,
+  "name": "复古赛璐璐",
+  "name_en": "Retro Cel",
+  "description": "明确阴影块与微有不齐的墨线，叠加柔和扫描颗粒，呈现怀旧动画胶片感。",
+  "signature": [
+    "有限不透明色",
+    "硬边阴影",
+    "轻微扫描颗粒"
+  ],
+  "rendering_prompt": "Simulate the texture of hand-drawn animation film from the 1990s. Let ink lines retain slight handmade irregularities, with a limited, consistent palette and clearly bounded shadow shapes. Colors should resemble opaque paint layered on transparent animation cels. Include extremely slight color misregistration, soft scanning texture, and fine film grain. Keep structures clear, avoiding continuous three-dimensional gradients and a modern, plastic-smooth finish.",
+  "avoid": "连续三维渐变、塑料平滑、过量故障",
+  "nearby_styles": [
+    32
+  ],
+  "difference": "复古赛璐璐有手绘和扫描瑕疵；韩漫线条更整洁精细",
+  "tuning": "把阴影归并为明确色块，再少量添加模拟胶片扫描痕迹。"
+}

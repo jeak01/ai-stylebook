@@ -1,0 +1,19 @@
+{
+  "id": 12,
+  "name": "等距插画",
+  "name_en": "Isometric",
+  "description": "平行边与统一等距投影带来理性空间，粉彩色面和简洁阴影突出几何体积。",
+  "signature": [
+    "平行边不汇聚",
+    "三轴等尺度",
+    "统一正交投影"
+  ],
+  "rendering_prompt": "Use strict orthographic isometric projection with equal foreshortening along all three spatial axes. Keep the vertical axis vertical and the other two approximately thirty degrees above and below the horizontal. Parallel edges must never converge, and scale must not diminish with distance. Convey volume through clear geometry, soft pastel colors, and simple faceted shadows. Apply one consistent projection throughout and keep the subject's structure recognizable.",
+  "avoid": "透视消失点、远物缩小、多视角混用",
+  "nearby_styles": [
+    6,
+    25
+  ],
+  "difference": "等距是投影规则；体素还必须用统一立方格构形",
+  "tuning": "让竖轴竖直，其他两轴约与水平成正负三十度，逐处检查平行边。"
+}

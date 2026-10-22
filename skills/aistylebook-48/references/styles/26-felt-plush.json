@@ -1,0 +1,18 @@
+{
+  "id": 26,
+  "name": "毛毡玩偶",
+  "name_en": "Felt Plush",
+  "description": "细密短羊毛纤维、轻微针痕与圆润造型，带来柔软温暖的针毡手工质感。",
+  "signature": [
+    "密织短羊毛",
+    "轻微针痕",
+    "蓬松哑光轮廓"
+  ],
+  "rendering_prompt": "Translate the subject into a handmade needle-felted wool object with rounded, soft forms and small natural irregularities. Cover the surface with densely interwoven short fibers and a few loose wisps. Colors should belong to dyed wool, with an overall fluffy, matte finish. Use gentle light to reveal fiber layers, subtle needle marks, and genuine thickness. Convey warm, reassuring craftsmanship, avoiding long-pile fur and plastic reflections.",
+  "avoid": "长毛皮草、塑料反光、光滑黏土",
+  "nearby_styles": [
+    22
+  ],
+  "difference": "毛毡有短纤维结构；黏土是连续平滑的手塑表面",
+  "tuning": "纤维长度保持克制，用侧柔光展示局部松散毛丝。"
+}
