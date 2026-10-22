@@ -1,115 +1,113 @@
 # AI Stylebook · 48 Image Styles Skill
 
-**找到说不出的风格，把它变成自己的作品。**
+**English** | [简体中文](README.zh-CN.md)
 
-[AI Stylebook](https://aistylebook.com/) 是一本面向所有创作者的视觉风格手册。通过图片示例、风格解读，以及同一人物、风景和物品的视觉对照，帮助你把“想要这种感觉”变成具体的颜色、笔触、材质与光影，让 AI 创作和人工设计都更有方向。
+**Name the style you have in mind. Bring it to life with AI.**
 
-**这个独立开源项目只提供前 48 种图片风格的设计 skill。更多风格与完整体验，请访问 [aistylebook.com](https://aistylebook.com/)。**
+[AI Stylebook](https://aistylebook.com/) is a visual handbook of **400+ styles** for creators working with AI or by hand. Through image examples, style guides, and comparisons of the same person, landscape, and object, it helps you find the name of the look you imagine—and turn it into clear directions for color, brushwork, material, and lighting.
 
-[浏览官网](https://aistylebook.com/) · [查看 Skill](skills/aistylebook-48/SKILL.md) · [48 种风格索引](skills/aistylebook-48/references/index.md) · [选择风格](skills/aistylebook-48/references/choosing.md)
+**This independent open-source project provides a design skill for only the first 48 image styles. Explore more styles and the full experience at [aistylebook.com](https://aistylebook.com/).**
 
-## 这个 Skill 能做什么
+[Visit the website](https://aistylebook.com/) · [Read the skill](skills/aistylebook-48/SKILL.md) · [Browse all 48 styles](skills/aistylebook-48/references/index.md) · [Choose a style](skills/aistylebook-48/references/choosing.md)
 
-- 按编号、中英文名称、材质或视觉特征寻找风格。
-- 区分相近风格，例如水彩与绘本、低多边形与体素、蒸汽波与合成波。
-- 为选定风格生成可直接使用的图片提示词，保留你自己的主体与关键特征。
-- 根据人物、风景和物品的差异调整指引，并用明确的风格特征检查和修正结果。
+## What this skill does
 
-每种风格都有独立指南，包含核心特征、渲染指令、应避免的问题、相近风格区别和调整方法。Skill 可以交给支持 `SKILL.md` 的 AI 助手使用；附带的本地查询脚本不需要第三方 Python 依赖。
+- Find styles by number, Chinese or English name, material, or visual trait.
+- Distinguish similar looks, such as watercolor and storybook, low poly and voxel art, or vaporwave and synthwave.
+- Create ready-to-use image prompts that preserve your subject and its defining features.
+- Adapt the guidance to people, landscapes, and objects, then check and refine the result against specific visual cues.
 
-## 三个主体，三张完整对照图
+Each style has its own guide with signature features, rendering instructions, pitfalls, comparisons, and adjustment advice. Use the skill with an AI assistant that supports `SKILL.md`, or use the included offline Python helper with no third-party dependencies.
 
-每张图片都包含 **48 种风格**，按 **01–48、从左到右、从上到下** 排列，均为 8 列 × 6 行。三张图使用相同的编号，便于观察同一种风格在人像、场景与物品上的不同表达。点击图片可查看完整尺寸。
+## Three subjects, three complete comparison sheets
 
-这些 AI 生成示例来自相同的主体设定，用来比较视觉处理；不同风格的构图和细节可能变化，并非逐像素一致。创作时应使用你自己的内容，示例里的场景、文字与道具不是必需元素。
+Each image contains **all 48 styles**, numbered **01–48 from left to right, top to bottom**, in an 8-column × 6-row grid. The numbering is identical across the three sheets, so you can compare how the same style treats a person, a scene, and an object. Click any image to view it at full size.
 
-### 同一人物 · 48 种风格
+These AI-generated examples share the same subject setup to illustrate visual treatments. Composition and details may vary between styles; they are not pixel-identical transformations. Use your own content when creating an image—the scenery, text, and props in these examples are not required.
 
-[![同一人物的 48 种图片风格，编号 01 至 48](skills/aistylebook-48/assets/people-48.jpg)](skills/aistylebook-48/assets/people-48.jpg)
+### One person · 48 styles
 
-### 同一风景 · 48 种风格
+[![The same person in 48 image styles, numbered 01 through 48](skills/aistylebook-48/assets/people-48.jpg)](skills/aistylebook-48/assets/people-48.jpg)
 
-[![同一风景的 48 种图片风格，编号 01 至 48](skills/aistylebook-48/assets/landscape-48.jpg)](skills/aistylebook-48/assets/landscape-48.jpg)
+### One landscape · 48 styles
 
-### 同一物品 · 48 种风格
+[![The same landscape in 48 image styles, numbered 01 through 48](skills/aistylebook-48/assets/landscape-48.jpg)](skills/aistylebook-48/assets/landscape-48.jpg)
 
-[![同一收录机的 48 种图片风格，编号 01 至 48](skills/aistylebook-48/assets/objects-48.jpg)](skills/aistylebook-48/assets/objects-48.jpg)
+### One object · 48 styles
 
-## 开始使用
+[![The same boombox in 48 image styles, numbered 01 through 48](skills/aistylebook-48/assets/objects-48.jpg)](skills/aistylebook-48/assets/objects-48.jpg)
 
-1. 克隆或下载这个仓库：
+## Get started
+
+1. Clone or download this repository:
+
    ```sh
    git clone https://github.com/jeak01/ai-stylebook.git
    ```
-2. 将 `skills/aistylebook-48` 整个文件夹放入你的 AI 工具支持的 skills 目录，保留内部结构；具体安装目录以该工具说明为准。
-3. 调用 `aistylebook-48`，提供主体、风格或你想表达的视觉感觉。也可以直接让助手读取本仓库的 `SKILL.md`。
 
-在支持 `$skill-name` 调用的助手中，例如：
+2. Copy the entire `skills/aistylebook-48` folder into your AI tool's supported skills directory, keeping its internal structure. Refer to your tool's documentation for the installation location.
+3. Invoke `aistylebook-48` and describe your subject, preferred style, or the feeling you want. You can also ask your assistant to read this repository's `SKILL.md` directly.
+
+For assistants that support `$skill-name` invocation:
 
 ```text
-使用 $aistylebook-48，把我上传的茶壶照片做成毛毡玩偶风格。
-保留壶嘴、把手和花纹，画面比例 4:3。
+Use $aistylebook-48 to turn my uploaded teapot photo into a felt plush artwork.
+Preserve the spout, handle, and floral pattern. Use a 4:3 aspect ratio.
 ```
 
 ```text
-使用 $aistylebook-48，我想做一张温暖、有纸张手工感的书店插画。
-先比较 3 种适合的风格，再为选中的风格写完整提示词。
+Use $aistylebook-48 to help me create a warm bookstore illustration with a handmade paper feel.
+Compare three suitable styles, then write a complete prompt for the one I choose.
 ```
 
 ```text
-使用 $aistylebook-48，解释低多边形和体素的区别。
-把同一辆红色自行车分别写成两份生成提示词，保持主体和画面比例一致。
+Use $aistylebook-48 to explain the difference between low poly and voxel art.
+Write a prompt for each using the same red bicycle, subject details, and aspect ratio.
 ```
 
-助手有图片工具时，可以继续生成图片；没有图片工具时，Skill 提供提示词与检查指引。本仓库不附带图片生成服务。
+If your assistant has an image tool, it can continue to generate an image. Otherwise, the skill provides prompts and review guidance. This repository does not include an image generation service.
 
-## 本地查询与提示词生成
+## Offline lookup and prompt drafting
 
-需要 Python 3.10 或更新版本；在仓库根目录执行：
+Requires Python 3.10 or later. Run these commands from the repository root:
 
 ```sh
 python skills/aistylebook-48/scripts/stylebook.py list
-python skills/aistylebook-48/scripts/stylebook.py search "纸张 手工" --limit 3
+python skills/aistylebook-48/scripts/stylebook.py search "paper handmade" --limit 3
 python skills/aistylebook-48/scripts/stylebook.py show "Watercolor"
 python skills/aistylebook-48/scripts/stylebook.py prompt 45 --subject "a red bicycle beside a cafe" --subject-type objects --ratio 4:3
-python skills/aistylebook-48/scripts/stylebook.py prompt "毛毡" --subject "the teapot in my reference image" --subject-type objects --mode transfer --preserve "handle, spout and floral pattern"
+python skills/aistylebook-48/scripts/stylebook.py prompt "Felt Plush" --subject "the teapot in my reference image" --subject-type objects --mode transfer --preserve "handle, spout and floral pattern"
 ```
 
-- `list / search / show` 支持 `--json`，方便其他工具读取。
-- `prompt` 生成文本，不调用外部 API，也不会读取或上传你的图片。
-- `show / prompt` 需要准确编号、名称或别名；模糊描述先用 `search`。
-- 检索使用本地名称、别名和特征词；长句可先提取“纸张、手工”等关键词。
-- 本地内容覆盖 01–48，母版参考图不计入其中；超出范围会明确提示。
+- `list`, `search`, and `show` support `--json` for use with other tools.
+- `prompt` produces text. It does not call an external API or read or upload your images.
+- `show` and `prompt` require an exact ID, name, or alias. Use `search` for less specific descriptions.
+- Search matches local names, aliases, and visual tags. For longer requests, extract keywords such as “paper” and “handmade” first.
+- The package covers IDs 01–48. Base reference photos are not counted as styles, and out-of-range requests are identified explicitly.
 
-## 风格范围
+## Included styles
 
-| 编号 | 分组 | 包含 |
+| IDs | Group | Styles |
 | --- | --- | --- |
-| 01–10 | 摄影写实 | 电影剧照、纪实摄影、时尚大片、街头摄影、微距特写、航拍视角、黑白纪实、复古胶片、长曝光光绘、水下摄影 |
-| 11–20 | 插画平面 | 扁平矢量、等距插画、剪纸拼贴、绘本故事、木刻版画、孔版印刷、手绘涂鸦、暗黑童话、复古招贴、几何扁平 |
-| 21–28 | 3D 与数字 | OC 渲染、黏土定格、皮克斯风、低多边形、体素、毛毡玩偶、玻璃拟态、液态金属 |
-| 29–36 | 动漫二次元 | 吉卜力风、新海诚风、复古赛璐璐、韩漫风、赛博动漫、国风水墨、Q 版黏土、暗黑动漫 |
-| 37–44 | 复古未来 | 蒸汽波、合成波、Y2K 千禧风、VHS 故障、复古未来海报、包豪斯、装饰艺术、构成主义 |
-| 45–48 | 艺术绘画 | 水彩、厚涂油画、浮世绘、波普艺术 |
+| 01–10 | Photography | Cinematic Film Still, Documentary Realism, Editorial Fashion, Street Photography, Macro Photography, Aerial Drone Shot, Black and White Documentary, 35mm Film, Long Exposure, Underwater |
+| 11–20 | Illustration & Graphic Design | Flat Vector, Isometric, Paper Cutout, Storybook, Woodcut Print, Risograph, Doodle, Dark Fairytale, Retro Poster, Geometric Flat |
+| 21–28 | 3D & Digital | Octane Render, Claymation, Pixar-style 3D, Low Poly, Voxel Art, Felt Plush, Glass 3D, Liquid Chrome |
+| 29–36 | Anime & Comics | Ghibli, Shinkai, Retro Cel, Webtoon, Cyberpunk Anime, Ink Anime, Chibi Clay, Dark Anime |
+| 37–44 | Retro & Futurist Design | Vaporwave, Synthwave Outrun, Y2K, VHS Glitch, Retro Sci-Fi Poster, Bauhaus, Art Deco, Constructivism |
+| 45–48 | Painting & Print | Watercolor, Impasto, Ukiyo-e, Pop Art |
 
-详细指南见 [48 种风格索引](skills/aistylebook-48/references/index.md)。名称用于检索，实际生成指引会进一步描述可见的造型、材料、线条和光照。
+See the [48-style index](skills/aistylebook-48/references/index.md) for individual guides. Names are lookup labels; the generation instructions describe observable shapes, materials, lines, and lighting.
 
-## 独立项目边界
+## Project scope
 
-本仓库仅包含这 48 种风格的 skill、指引、三张对照图与本地工具，不包含官网实现、完整风格库、运行配置或用户数据。它可以独立使用，不依赖官网服务。
+This repository contains only the skill, guides, three comparison sheets, and local tools for these 48 styles. It does not include the website implementation, the complete style library, runtime configuration, or user data. The package works independently of the website.
 
 ```sh
 python -m unittest discover -s tests
 python tools/audit_release.py
 ```
 
-## English
-
-[AI Stylebook](https://aistylebook.com/) is a visual style reference for creators working with AI or by hand. Compare examples, understand visual traits, and turn an imagined look into concrete choices of color, texture, material and lighting.
-
-This independent open-source skill contains **only the first 48 image styles**, with bilingual lookup, individual rendering guides, subject-preservation instructions and three 48-style contact sheets. Install the complete `skills/aistylebook-48` directory in a compatible assistant, or use the offline Python helper. It drafts prompts; image generation requires your own image tool.
-
-**Discover more styles at [aistylebook.com](https://aistylebook.com/).**
+**Discover more styles and the full experience at [aistylebook.com](https://aistylebook.com/).**
 
 ## License
 

@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PREFIX = "skills/aistylebook-48/"
 FIXED = {
-    ".gitignore", ".gitattributes", "README.md", "LICENSE",
+    ".gitignore", ".gitattributes", "README.md", "README.zh-CN.md", "LICENSE",
     "tests/test_stylebook.py", "tools/audit_release.py",
     PREFIX + "SKILL.md", PREFIX + "agents/openai.yaml",
     PREFIX + "references/catalog.json", PREFIX + "references/index.md",
